@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Click Untuk Merubah Warna.</p>
+
+    <button onclick="myFunction()">Ubah Warna</button>
+
+    <script>
+        function myFunction() {
+            var warna = prompt("Ketikan Warna yang kamu inginkan ","Warna");
+            if (warna != null){
+                document.body.style.backgroundColor = warna;
+            }
+        }
+    </script>
+</body>
+</html>
